@@ -1,4 +1,4 @@
-# Foodmark
+# React Template
 
 ## Description
 
