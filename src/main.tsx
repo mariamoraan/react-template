@@ -3,7 +3,5 @@ import ReactDOM from "react-dom/client";
 import "./core/styles/globals.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <p>Holaa</p>
-  </React.StrictMode>
+  <React.StrictMode></React.StrictMode>
 );
