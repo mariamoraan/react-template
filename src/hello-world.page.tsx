@@ -6,31 +6,35 @@ const cx = bind(styles);
 
 const items = [
   {
-    label: 'Typescript',
+    label: '🪄 Typescript',
     id: 'typescript',
     description: 'A superset of JavaScript that adds static typing to improve code safety and maintainability.',
   },
   {
-    label: 'EsLint',
+    label: '🔬 EsLint',
     id: 'eslint',
     description: 'A linting tool that helps identify and fix code errors and stylistic issues.',
   },
-  { label: 'Prettier', id: 'prettier', description: 'A code formatter that ensures consistent code style.' },
+  { label: '🧹 Prettier', id: 'prettier', description: 'A code formatter that ensures consistent code style.' },
   {
-    label: 'Husky',
+    label: '🚀 Husky',
     id: 'husky',
     description: 'A pre-commit hook that automatically runs Prettier and ESLint before each commit.',
   },
-  { label: 'Styles', id: 'styles', description: 'Contains a binder bassed on classnames/bind and theme definition.' },
-  { label: 'i18n', id: 'i18n', description: 'A library for implementing translations in React applications.' },
   {
-    label: 'Routes',
+    label: '📍 Styles',
+    id: 'styles',
+    description: 'Contains a binder bassed on classnames/bind and theme definition.',
+  },
+  { label: '🌏 i18n', id: 'i18n', description: 'A library for implementing translations in React applications.' },
+  {
+    label: '🧱 Routes',
     id: 'routes',
     description: 'Uses react-router-dom, a library for writing unit tests for React components.',
   },
-  { label: 'Testing', id: 'testing', description: 'Includes: jest, react-testing-library and cypress.' },
+  { label: '⚗️ Testing', id: 'testing', description: 'Includes: jest, react-testing-library and cypress.' },
   {
-    label: 'Alias',
+    label: '📧 Alias',
     id: 'alias',
     description: 'Configure aliases to simplify import paths and improve code readability.',
   },
@@ -56,13 +60,13 @@ export const HelloWorldPage = () => {
         </p>
         <div className={cx('links')}>
           <a target="_blank" className={cx('link')} href="https://github.com/mariamoraan">
-            <span className={cx('strong')}>Author Github</span>
+            <span className={cx('strong')}>😼 Author Github</span>
             <span>
               Check my github: <span className={cx('primary', 'strong')}>mariamoraan</span>
             </span>
           </a>
           <a target="_blank" className={cx('link')} href="https://x.com/_mariamoraan">
-            <span className={cx('strong')}>Author Twitter</span>
+            <span className={cx('strong')}>🐦 Author Twitter</span>
             <span>
               Check my twitter: <span className={cx('primary', 'strong')}>@_mariamoraan</span>
             </span>
