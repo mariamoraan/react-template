@@ -68,6 +68,7 @@ export const HelloWorldPage = () => {
             </span>
           </a>
         </div>
+        <p className={cx('powered-by')}>Powered by Vite</p>
       </section>
 
       <section className={cx('section', 'how-to-start')}>

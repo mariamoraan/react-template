@@ -116,6 +116,11 @@
   gap: 24px;
 }
 
+.powered-by {
+  margin-top: 48px;
+  font-weight: 600;
+}
+
 .section.how-to-start .steps {
   display: flex;
   flex-direction: column;
