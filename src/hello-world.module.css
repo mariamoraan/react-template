@@ -75,8 +75,30 @@
   transition: 200ms ease;
 }
 
+.button:hover,
 .link:hover {
   opacity: 0.6;
+}
+
+.button {
+  padding: 12px 24px;
+  color: var(--on-background-color);
+  border-radius: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid var(--on-background-color);
+  transition: 200ms ease;
+  font-weight: 600;
+}
+
+.primary-button {
+  background: var(--primary-color);
+  color: var(--background-color);
+  border-color: var(--primary-color);
+}
+
+.give-me-star {
+  margin-top: 48px;
 }
 
 .strong {

@@ -69,6 +69,13 @@ export const HelloWorldPage = () => {
           </a>
         </div>
         <p className={cx('powered-by')}>Powered by Vite</p>
+        <a
+          target="_blank"
+          href="https://github.com/mariamoraan/react-template"
+          className={cx('button', 'primary-button', 'give-me-star')}
+        >
+          ⭐️ Give me a star ⭐️
+        </a>
       </section>
 
       <section className={cx('section', 'how-to-start')}>
