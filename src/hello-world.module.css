@@ -180,6 +180,10 @@
   flex: 1;
 }
 
+.item-description {
+  color: var(--dark-grey);
+}
+
 @media (max-width: 600px) {
   .section {
     justify-content: center;

@@ -114,7 +114,7 @@ export const HelloWorldPage = () => {
           </ul>
           <div className={cx('description')}>
             <h3 className={cx('item')}>{selectedItem.label}</h3>
-            <p>{selectedItem.description}</p>
+            <p className={cx('item-description')}>{selectedItem.description}</p>
           </div>
         </div>
       </section>
