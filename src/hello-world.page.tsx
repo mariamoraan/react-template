@@ -87,8 +87,8 @@ export const HelloWorldPage = () => {
           <li className={cx('step')}>
             <p>
               3. Open the application at{' '}
-              <a target="_blank" href="http://localhost:5173">
-                http://localhost:5173
+              <a target="_blank" href="http://localhost:3000">
+                http://localhost:3000
               </a>
             </p>
           </li>
