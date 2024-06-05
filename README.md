@@ -44,4 +44,4 @@ npm install
 npm run dev
 ```
 
-3. Open the application at http://localhost:5173
+3. Open the application at http://localhost:3000
