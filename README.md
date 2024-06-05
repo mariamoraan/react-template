@@ -1,5 +1,7 @@
 # React Template
 
+**✨✨Tip: use the "Use this template" button available at the top right✨✨**
+
 ## Description
 
 This React template is a boilerplate for kickstarting your React projects with the following tools pre-configured:
